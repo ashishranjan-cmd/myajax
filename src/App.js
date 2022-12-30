@@ -2,22 +2,11 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  let ImgURl = "https://pbs.twimg.com/profile_images/894417735169527813/WOQ2vmng_400x400.jpg"
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Animal Kingdom</h1>
+      <img className='img' width="100" height="100"  src={ImgURl} />
     </div>
   );
 }
